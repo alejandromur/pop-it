@@ -46,6 +46,9 @@ GLOBAL CONTAINER & VEIL
 
     .u-modal-box {
         width: 96%;
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
         max-width: 780px;
         padding: 16px;
 
