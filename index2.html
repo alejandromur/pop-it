@@ -3,124 +3,153 @@
 <!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8" lang="en">         <![endif]-->
 <!--[if IE 8]>     <html class="no-js lt-ie9" lang="en">                <![endif]-->
 <!--[if IE 9]>     <html class="no-js ie9" lang="en">                   <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>pop-it</title>
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-        <meta name="copyright" content="&copy; 2016 Mamutlove">
-        <meta name="description" content="Pop-it. A simple #Vanilla #JavaScript plugin that launches a modal box where place your message. No #jQuery is needed. No pretentions, just for fun">
-        <meta name="keywords" content="CSS, Vanilla Javascript, JavaScript, Functional JavaScript, pop it">
-        <meta name="robots" content="follow, all">
-        <meta http-equiv="author" content="@alejandro_mur">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>pop-it</title>
 
-        <meta property="twitter:card" content="Pop-it. Another Pop up JS library">
-        <meta property="twitter:url" content="http://www.mamutlove.es/projects/pop-it/">
-        <meta property="twitter:title" content="Pop-it. A simple modal box writen in JavaScript">
-        <meta property="twitter:description" content="Pop-it. A simple #Vanilla #JavaScript plugin that launches a modal box where place your message">
-        <meta property="twitter:image" content="http://www.mamutlove.es/img/logo-mamutlove.jpg" />
-        <meta property="twitter:site" content="@mamutlove">
+    <meta name="copyright" content="&copy; 2016 Mamutlove">
+    <meta name="description" content="Pop-it. A simple #Vanilla #JavaScript plugin that launches a modal box where place your message. No #jQuery is needed. No pretentions, just for fun">
+    <meta name="keywords" content="CSS, Vanilla Javascript, JavaScript, Functional JavaScript, pop it">
+    <meta name="robots" content="follow, all">
+    <meta http-equiv="author" content="@alejandro_mur">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="twitter:card" content="Pop-it. Another Pop up JS library">
+    <meta property="twitter:url" content="http://www.mamutlove.es/projects/pop-it/">
+    <meta property="twitter:title" content="Pop-it. A simple modal box writen in JavaScript">
+    <meta property="twitter:description" content="Pop-it. A simple #Vanilla #JavaScript plugin that launches a modal box where place your message">
+    <meta property="twitter:image" content="http://www.mamutlove.es/old/img/logo-mamutlove.jpg" />
+    <meta property="twitter:site" content="@mamutlove">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-21276425-1']);
-            _gaq.push(['_trackPageview']);
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-    </head>
-    <body>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+</head>
 
-        <header class="header">
-            <h1>WHATEVER HEADER</h1>
-        </header>
-        <main class="content cf">
-            <aside class="aside">
-                <h3>Pop-It. Another Pop up JavaScript plugin.</h3>
-                <p>You could launch a responsive pop up in an easy way.</p>
-                <p>Please, consider your own targets before copy/paste. It is possible that you need to change some CSS properties.</p>
-                <button class="button" data-js="open-u-modal">Open pop-it</button>
-            </aside>
-            <section class="container">
-                <div>
-                    <h2><a href="http://iriacagigao.com/" title="Iria Cagigao">Iria Cagigao</a></h2>
-                    <a href="http://iriacagigao.com/" title="Iria Cagigao"><img src="http://www.mamutlove.es/img/iriacagigao-responsive.jpg" alt="Iria Cagigao" width="920" height="350"></a>
-                </div>
-                <div>
-                    <h2><a href="http://www.mamutlove.es/stop-global-warming.html" title="Stop Global Warming">Stop Global Warming</a></h2>
-                    <a href="http://www.mamutlove.es/stop-global-warming.html" title="Stop Global Warming"><img src="http://www.mamutlove.es/img/stopGlobalWarming.jpg" alt="Stop Global Warming" width="920" height="350"></a>
-                </div>
-                <div>
-                    <h2><a href="http://www.mamutlove.es/republica-dominicana.html" title="República Dominicana">República Dominicana</a></h2>
-                    <a href="http://www.mamutlove.es/republica-dominicana.html" title="República Dominicana"><img src="http://www.mamutlove.es/img/republica-dominicana-logo.gif" alt="República Dominicana" width="920" height="350"></a>
-                </div>
-                <div>
-                    <h2><a href="http://www.mamutlove.es/smint.html" title="Smint">Smint</a></h2>
-                    <a href="http://www.mamutlove.es/smint.html" title="Smint"><img src="http://www.mamutlove.es/img/smint-grafica.gif" alt="Smint" width="920" height="350"></a>
-                </div>
-                <div>
-                    <h2><a href="http://www.mamutlove.es/spontex.html" title="Spontex">Spontex</a></h2>
-                    <a href="http://www.mamutlove.es/spontex.html" title="Spontex"><img src="http://www.mamutlove.es/img/spontex-grafica.gif" alt="Spontex" width="920" height="350"></a>
-                </div>
-                <div>
-                    <h2><a href="http://www.mamutlove.es/" title="Mamutlove">Mamutlove</a></h2>
-                    <a href="http://www.mamutlove.es/" title="Mamutlove"><img src="http://www.mamutlove.es/img/mamut-love-logo.jpg" alt="Mamut Love says Stop Global Warming" width="920" height="350"></a>
-                </div>
-                <div>
-                    <h2><a href="http://www.mamutlove.es/tomtom.html" title="Tomtom">Tomtom</a></h2>
-                    <a href="http://www.mamutlove.es/tomtom.html" title="Tomtom"><img src="http://www.mamutlove.es/img/tomtom-grafica.gif" alt="Tomtom" width="920" height="350"></a>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <h5>WHATEVER FOOTER - All the images use in this page are owned by Mamut Love - <a href="mailto:hola@mamutlove.es">hola@mamutlove.es</a></h5>
-        </footer>
+<body>
+
+    <header class="header">
+        <h1>WHATEVER HEADER</h1>
+    </header>
+    <main class="content cf">
+        <aside class="aside">
+            <h3>Pop-It. Another Pop up JavaScript plugin.</h3>
+            <p>You could launch a responsive pop up in an easy way.</p>
+            <p>Please, consider your own targets before copy/paste. It is possible that you need to change some CSS properties.</p>
+            <button class="button" data-js="open-u-modal">Open pop-it</button>
+        </aside>
+        <section class="container">
+            <div>
+                <h2>
+                    <a href="http://iriacagigao.com/" title="Iria Cagigao">Iria Cagigao</a>
+                </h2>
+                <a href="http://iriacagigao.com/" title="Iria Cagigao">
+                    <img src="http://www.mamutlove.es/old/img/iriacagigao-responsive.jpg" alt="Iria Cagigao" width="920" height="350">
+                </a>
+            </div>
+            <div>
+                <h2>
+                    <a href="http://www.mamutlove.es/stop-global-warming.html" title="Stop Global Warming">Stop Global Warming</a>
+                </h2>
+                <a href="http://www.mamutlove.es/stop-global-warming.html" title="Stop Global Warming">
+                    <img src="http://www.mamutlove.es/old/img/stopGlobalWarming.jpg" alt="Stop Global Warming" width="920" height="350">
+                </a>
+            </div>
+            <div>
+                <h2>
+                    <a href="http://www.mamutlove.es/republica-dominicana.html" title="República Dominicana">República Dominicana</a>
+                </h2>
+                <a href="http://www.mamutlove.es/republica-dominicana.html" title="República Dominicana">
+                    <img src="http://www.mamutlove.es/old/img/republica-dominicana-logo.gif" alt="República Dominicana" width="920" height="350">
+                </a>
+            </div>
+            <div>
+                <h2>
+                    <a href="http://www.mamutlove.es/smint.html" title="Smint">Smint</a>
+                </h2>
+                <a href="http://www.mamutlove.es/smint.html" title="Smint">
+                    <img src="http://www.mamutlove.es/old/img/smint-grafica.gif" alt="Smint" width="920" height="350">
+                </a>
+            </div>
+            <div>
+                <h2>
+                    <a href="http://www.mamutlove.es/spontex.html" title="Spontex">Spontex</a>
+                </h2>
+                <a href="http://www.mamutlove.es/spontex.html" title="Spontex">
+                    <img src="http://www.mamutlove.es/old/img/spontex-grafica.gif" alt="Spontex" width="920" height="350">
+                </a>
+            </div>
+            <div>
+                <h2>
+                    <a href="http://www.mamutlove.es/" title="Mamutlove">Mamutlove</a>
+                </h2>
+                <a href="http://www.mamutlove.es/" title="Mamutlove">
+                    <img src="http://www.mamutlove.es/old/img/mamut-love-logo.jpg" alt="Mamut Love says Stop Global Warming" width="920" height="350">
+                </a>
+            </div>
+            <div>
+                <h2>
+                    <a href="http://www.mamutlove.es/tomtom.html" title="Tomtom">Tomtom</a>
+                </h2>
+                <a href="http://www.mamutlove.es/tomtom.html" title="Tomtom">
+                    <img src="http://www.mamutlove.es/old/img/tomtom-grafica.gif" alt="Tomtom" width="920" height="350">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h5>WHATEVER FOOTER - All the images use in this page are owned by Mamut Love -
+            <a href="mailto:hola@mamutlove.es">hola@mamutlove.es</a>
+        </h5>
+    </footer>
 
 
-        <!-- MODAL -->
-        <div class="u-modal">
-            <div class="u-modal-box"><!-- .modal-box--fullscreen -->
-                <div class="tar">
-                    <i class="u-modal-close" data-js="close-u-modal">close here</i>
+    <!-- MODAL -->
+    <div class="u-modal">
+        <div class="u-modal-box">
+            <!-- .modal-box--fullscreen -->
+            <div class="tar">
+                <i class="u-modal-close" data-js="close-u-modal">close here</i>
+            </div>
+            <div class="u-modal-content">
+                <div class="u-modal-column u-modal-column--animated" data-effect="slide-up">
+                    <p class="u-modal-txt u-modal-txt--animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dignissimos! Eveniet, repudiandae, optio.
+                        Qui quidem expedita praesentium eveniet consequuntur, optio molestiae, amet, aspernatur ex in recusandae
+                        aut soluta consequatur facere.</p>
                 </div>
-                <div class="u-modal-content">
-                    <div class="u-modal-column u-modal-column--animated" data-effect="slide-up">
-                        <p class="u-modal-txt u-modal-txt--animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dignissimos! Eveniet, repudiandae, optio. Qui quidem expedita praesentium eveniet consequuntur, optio molestiae, amet, aspernatur ex in recusandae aut soluta consequatur facere.</p>
-                    </div>
-                    <div class="u-modal-column u-modal-column--animated" data-effect="slide-down">
-                        <p class="u-modal-txt u-modal-txt--animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dignissimos! Eveniet, repudiandae, optio. Qui quidem expedita praesentium eveniet consequuntur, optio molestiae, amet, aspernatur ex in recusandae aut soluta consequatur facere.</p>
-                    </div>
-                </div>
-                <div class="tar">
-                    <button class="u-modal-btn" data-js="close-u-modal">Understood</button>
+                <div class="u-modal-column u-modal-column--animated" data-effect="slide-down">
+                    <p class="u-modal-txt u-modal-txt--animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dignissimos! Eveniet, repudiandae, optio.
+                        Qui quidem expedita praesentium eveniet consequuntur, optio molestiae, amet, aspernatur ex in recusandae
+                        aut soluta consequatur facere.</p>
                 </div>
             </div>
+            <div class="tar">
+                <button class="u-modal-btn" data-js="close-u-modal">Understood</button>
+            </div>
         </div>
-        <!-- MODAL -->
+    </div>
+    <!-- MODAL -->
 
 
-        <script src="js/pop-it-1.0.min.js"></script>
-        <script>
+    <script src="js/pop-it-1.0.min.js"></script>
+    <script>
 
-        (function(){
+        (function () {
             var p = new Popit({
                 // auto: true,
                 // veil: "disabled"
             });
         }());
 
-        </script>
+    </script>
 
-    </body>
+</body>
+
 </html>
