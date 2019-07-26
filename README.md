@@ -3,10 +3,10 @@
 
 <h2>Demo</h2>
 <p>
-    <a href="http://www.mamutlove.es/projects/pop-it/" title="Demo" target="_blank">Demo 1</a> | 
-    <a href="http://www.mamutlove.es/projects/pop-it/index2.html" title="Demo" target="_blank">Demo 2</a> | 
-    <a href="http://www.mamutlove.es/projects/pop-it/index3.html" title="Demo" target="_blank">Demo 3</a> | 
-    <a href="http://www.mamutlove.es/projects/pop-it/index4.html" title="Demo" target="_blank">Demo 4</a>
+    <a href="https://www.mamutlove.com/projects/pop-it/" title="Demo" target="_blank">Demo 1</a> | 
+    <a href="https://www.mamutlove.com/projects/pop-it/index2.html" title="Demo" target="_blank">Demo 2</a> | 
+    <a href="https://www.mamutlove.com/projects/pop-it/index3.html" title="Demo" target="_blank">Demo 3</a> | 
+    <a href="https://www.mamutlove.com/projects/pop-it/index4.html" title="Demo" target="_blank">Demo 4</a>
 </p>
 
 <h2>Usage</h2>
@@ -38,4 +38,4 @@
 <p>• CSS classes are namespaced under u- prefix in order to avoid strange behaviours with your own CSS</p>
 
 <h2>Final thoughts</h2>
-<p>Please, take this <a href="http://www.mamutlove.es/projects/pop-it/" title="Demo" target="_blank">Demo</a> as it is, and feel free to download, modify, break, use or destroy this code.</p>
+<p>Please, take this <a href="https://www.mamutlove.com/projects/pop-it/" title="Demo" target="_blank">Demo</a> as it is, and feel free to download, modify, break, use or destroy this code.</p>
